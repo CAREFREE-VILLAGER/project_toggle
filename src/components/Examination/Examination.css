@@ -1,0 +1,52 @@
+
+.examinations-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  padding-left: 110px;
+  padding-right: 70px; 
+  font-family: 'Albert Sans', sans-serif;
+}
+
+.exam-item {
+  flex: 1;
+  padding: 0 15px;
+  border-right: 1px solid #ccc;
+  font-family: 'Albert Sans', sans-serif;
+  color: #12406f;
+}
+
+.exam-item:last-child {
+  border-right: none;
+}
+
+.exam-border {
+  flex: 1;
+  padding: 10px; 
+  font-family: 'Albert Sans', sans-serif;
+  color: #12406f;
+}
+
+
+@media (max-width: 768px) {
+  .examinations-container {
+    flex-direction: column; 
+    padding: 10px;
+  }
+
+  .exam-item,
+  .exam-border {
+    flex: none; 
+    width: 100%; 
+    border-right: none; 
+    margin-bottom: 10px; 
+  }
+}
+
+
+@media (max-width: 576px) {
+  .exam-item,
+  .exam-border {
+    padding: 5px; 
+  }
+}

@@ -1,0 +1,53 @@
+
+.info-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 100px; 
+    font-family: 'Albert Sans', sans-serif;
+  }
+  
+  .info-item {
+    flex: 1;
+    padding: 0 15px;
+    font-family: 'Albert Sans', sans-serif;
+  }
+  
+  .info-item:last-child {
+    border-right: none;
+  }
+  
+  .info-border {
+    flex: 1;
+    padding: 10px; 
+    font-family: 'Albert Sans', sans-serif;
+    color: #12406f;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .info-container {
+      flex-direction: column; 
+      padding: 10px;
+      text-align: center;
+    }
+  
+    .info-item,
+    .info-border {
+    
+      flex: none;
+      width: 100%;
+      border-right: none;
+      margin-bottom: 10px;
+      text-align: center;
+      color: #12406f;
+    }
+  }
+  
+  
+  @media (max-width: 576px) {
+    .info-item,
+    .info-border {
+      padding: 5px; 
+    }
+  }
+  

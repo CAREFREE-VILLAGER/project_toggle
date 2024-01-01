@@ -1,0 +1,31 @@
+
+.slide-content {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: 'Albert Sans', sans-serif;
+ 
+}
+
+.slide-text {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  text-align: left;
+  color: white;
+  margin: 30px; 
+  padding: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: #18446c;
+  border-radius: 15px;
+  line-height: 1.5;
+  font-family: 'Albert Sans', sans-serif;
+}
+.icon-container {
+  vertical-align: middle;
+  font-family: 'Albert Sans', sans-serif;
+}

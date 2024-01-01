@@ -1,0 +1,40 @@
+
+.custom-navbar {
+  padding: 1.5rem 0; 
+  background-color: #18446c;
+  font-family: 'Albert Sans', sans-serif;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white; 
+  padding-left: 30px;
+  font-family: 'Albert Sans', sans-serif;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 300;
+  font-family: 'Albert Sans', sans-serif;
+  color: white; 
+}
+
+.buttonnav {
+  background-color: white;
+  border: none;
+  color: #18446c;
+  padding: 10px 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+  font-family: 'Albert Sans', sans-serif;
+}
+
+
+.ml-auto {
+  margin-left: auto !important;
+}
