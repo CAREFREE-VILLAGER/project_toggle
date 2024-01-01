@@ -16,7 +16,7 @@ const Headsection = () => {
       slidesPerView={1}
       spaceBetween={10}
       pagination={{ clickable: true }}
-      autoplay={{ delay: 20000, disableOnInteraction: false }}
+      autoplay={{ delay: 5000, disableOnInteraction: false }}
       loop
       style={{ height: '400px', width: '100%' }}
     >
